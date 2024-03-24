@@ -5,10 +5,10 @@ import random as rand #gera variaveis ou numeros aleatorios
 import constantes as c
 
 #imports do jogo
-import classes.player as pl
-import classes.bullet as bl
-from classes.inimigos import inimigo_base as ib
-from classes.maps import fase1 as ce, fase2 as cs
+import game.classes.player as pl
+import game.classes.bullet as bl
+from game.classes.inimigos import inimigo_base as ib
+from game.classes.maps import fase1 as ce, fase2 as cs
 
 #inicializando e obtendo informações da tela
 pg.init()
